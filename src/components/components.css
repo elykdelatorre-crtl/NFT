@@ -24,22 +24,26 @@
     justify-content: left;
     
 }
-.container
+.container-grid
 {
-    width: 1126px;
-    height: 787px;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 0px;
+    gap: 1.25rem;
 }
-
+.text-container{
+    width: 95%;
+}
 .top-text
 {
-    
+    font-family: 'Rajdhani';
+    font-style: normal;
     font-weight: 600;
     font-size: 20px;
+    line-height: 26px;
+    padding-left: 2%;
 }
 
 /*card*/
@@ -54,8 +58,8 @@
 .imgcon
 {
     background-color: #FFFFFF;
-    width: 230px;
-    height: 230px;
+    width: auto;
+    height: auto;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -108,6 +112,15 @@
     color: #28282D;
     padding-left: 45px;
     background-color: #FFFFFF;
+}
+.exchange-title{
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #000000;
 }
 
 a{

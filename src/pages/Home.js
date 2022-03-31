@@ -1,4 +1,5 @@
 
+import Exchange from "../components/Exchange";
 import NFTContainer from "../components/NFTContainer";
 
 import './Pages.css';
@@ -7,11 +8,12 @@ function Home()
 {
     return(
         
-        <div className="hom-con">
-                
-                <NFTContainer/>
-
+        <div>
+                <NFTContainer />
+                <Exchange />
         </div>
+        
+
     );
 }
 
