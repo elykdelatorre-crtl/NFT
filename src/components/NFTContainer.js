@@ -4,6 +4,7 @@ import Card from './Card';
 function NFTContainer()
 {
     return(
+    <div>
         <section>
             <div className='nftcon'>
                         <div className='container text-top col link d-flex align-items justify-content-center'>
@@ -23,6 +24,8 @@ function NFTContainer()
                                 </div>
                     </div>
         </section>
+    </div>
+        
         
     );
 }

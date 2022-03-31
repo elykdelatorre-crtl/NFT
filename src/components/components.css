@@ -34,7 +34,7 @@
     gap: 1.25rem;
 }
 .text-container{
-    width: 95%;
+    width: 100%;
 }
 .top-text
 {
@@ -55,6 +55,7 @@
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
 .imgcon
 {
     background-color: #FFFFFF;
@@ -113,6 +114,11 @@
     padding-left: 45px;
     background-color: #FFFFFF;
 }
+.exchange{
+    position: absolute;
+    width: 80%;
+    height: 514px;
+}
 .exchange-title{
     font-family: 'Rajdhani';
     font-style: normal;
@@ -122,7 +128,31 @@
 
     color: #000000;
 }
-
+.exchang-title-2{
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.exchange-container{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+.first-exchange-container{
+    background: linear-gradient(125.75deg, #9945FF 0%, #14F195 98.3%);
+    border-radius: 10px 0px 0px 10px;
+    
+    width: 513px;
+    height: 259px;
+}
+.second-exchange-container{
+    background: linear-gradient(126.88deg, #010101 0%, #5E5E63 100%);
+border-radius: 0px 10px 10px 0px;
+width: 512px;
+height: 259px
+}
 a{
     text-decoration: none;
     background-color: #FFFFFF;

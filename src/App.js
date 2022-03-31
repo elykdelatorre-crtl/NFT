@@ -10,7 +10,6 @@ import NFT from "./pages/NFT";
 function App() {
   return (
     <div>
-<Logo/>
 
 <Switch>
 
