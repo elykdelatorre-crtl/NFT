@@ -7,7 +7,7 @@ function NFTContainer()
     <div>
         <section>
             <div className='nftcon'>
-                        <div className='container text-top col link d-flex align-items justify-content-center'>
+                        <div className='container text-top col link d-flex align-items justify-content-center pb-2'>
                             <div className='text-container'>
                             <h3 className='top-text'>TRENDING HOMEQUBE NFTs</h3>
                             </div>
