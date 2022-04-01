@@ -7,12 +7,12 @@ function NFTContent()
             {/*IMG Dito men*/}
                     <div className="col">
                         <div className="imgContainter ">
-                            <img className="nftimg" src="./Img/qube.png"/>
+                            <img className="nftimg img-fluid" src="./Img/qube.png"/>
                         </div>
                     </div>
             {/*Ditio yung content*/}
                     <div className="col">
-                        <div className="nft-content-con">
+                        <div className="nft-content-con containr-fluid">
                                 <h3 className="nftname">Homeqube Logo</h3>
                                 <p className="sub-nfttxt"> <img className='nft-icons' src='./Img/iconheart.png'/> 5</p>
 

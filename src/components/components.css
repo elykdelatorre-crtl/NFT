@@ -4,6 +4,9 @@
     font-family: "Rajdhani", sans-serif;
     
 }
+a {
+  text-decoration: none;
+}
 .LogoCon
 {
     width: 100%;
@@ -173,7 +176,7 @@ height: 259px
 }
 .links{
     text-decoration: none !important;
-    background-color: #FFFFFF !important;
+    color: #000000 !important;
 }
 .nav-item {
     font-size: 14px;
