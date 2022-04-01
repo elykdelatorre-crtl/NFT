@@ -6,7 +6,6 @@ function Logo()
     <>
         <Navbar bg="dark" variant="dark" collapseOnSelect expand="lg"  className='navbar navbar-main navbar-light sticky-top'>
           <Container>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
           <Navbar.Brand href="#">
             <img className="logo" src='./Img/Homeqube-logo-black_small 1.svg' alt=''/>
           </Navbar.Brand>
