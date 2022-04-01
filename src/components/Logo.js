@@ -16,7 +16,9 @@ function Logo()
                     <li class="nav-item ms-5">
                         <a href="pipeline.html" class="nav-link">
                             <p class="nav-item px-4 pt-4">
-                                proof of concept
+                                proof of 
+                                <br/>
+                                concept
                             </p>
                         </a>
                     </li>
@@ -25,7 +27,8 @@ function Logo()
                     <li class="nav-item ms-5">
                         <a href="pipeline.html" class="nav-link">
                             <p class="nav-item px-4 pt-4">
-                                nft collections
+                                nft 
+                                <br/>collections
                             </p>
                         </a>
                     </li>
@@ -33,7 +36,7 @@ function Logo()
                     <li class="nav-item ms-5">
                         <a href="pipeline.html" class="nav-link">
                             <p class="nav-item px-4 pt-4">
-                                buy offers
+                                buy <br/>offers
                             </p>
                         </a>
                     </li>
@@ -42,7 +45,7 @@ function Logo()
                     <li class="nav-item ms-5">
                         <a href="pipeline.html" class="nav-link">
                             <p class="nav-item px-4 pt-4">
-                                ico website
+                                ico <br/>website
                             </p>
                         </a>
                     </li>

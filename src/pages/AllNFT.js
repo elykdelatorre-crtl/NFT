@@ -1,10 +1,11 @@
+import NFTs from "../components/NFT's";
 import NFTContainer from "../components/NFTContainer";
 
 function AllNFT()
 {
     return(
         <>
-                <NFTContainer />
+                <NFTs />
         </>
     );
 }
