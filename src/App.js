@@ -2,7 +2,6 @@
 import Logo from "./components/Logo";
 import {Route, Switch} from "react-router-dom";
 import Home from "./pages/Home";
-
 import ConnectWallet from "./pages/ConnectWallet";
 import NFT from "./pages/NFT";
 
@@ -10,7 +9,6 @@ import NFT from "./pages/NFT";
 function App() {
   return (
     <div>
-<Logo/>
 
 <Switch>
 

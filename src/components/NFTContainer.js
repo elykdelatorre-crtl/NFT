@@ -4,23 +4,29 @@ import Card from './Card';
 function NFTContainer()
 {
     return(
-        <div className='nftcon'> 
-            <div><h3 className='toptxt'>TRENDING HOMEQUBE NFTs</h3></div>
-                    <div className="container">
-
-
-                        <Card text='Homeqube 1' heart='2' />
-                        <Card text='Homeqube 2' heart='3' />
-                        <Card text='Homeqube 3' heart='5' />
-                        <Card text='Homeqube 4' heart='3' />
-                        <Card text='Homeqube 5' heart='21' />
-                        <Card text='Homeqube 6' heart='23' />
-                        <Card text='Homeqube 7' heart='29' />
-                        <Card text='Homeqube 8' heart='22' />
-                    
-
+    <div>
+        <section className='pt-5'>
+            <div className='nftcon'>
+                        <div className='container text-top col link d-flex align-items justify-content-center pb-2'>
+                            <div className='text-container'>
+                            <h3 className='top-text'>TRENDING HOMEQUBE NFTs</h3>
+                            </div>
+                        </div>
+                                <div className="container-grid container">
+                                    <Card text='Homeqube 1' heart='2' />
+                                    <Card text='Homeqube 2' heart='3' />
+                                    <Card text='Homeqube 3' heart='5' />
+                                    <Card text='Homeqube 4' heart='3' />
+                                    <Card text='Homeqube 5' heart='21' />
+                                    <Card text='Homeqube 6' heart='23' />
+                                    <Card text='Homeqube 7' heart='29' />
+                                    <Card text='Homeqube 8' heart='22' />
+                                </div>
                     </div>
-        </div>
+        </section>
+    </div>
+        
+        
     );
 }
 

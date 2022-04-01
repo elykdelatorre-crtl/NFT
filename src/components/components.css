@@ -11,10 +11,18 @@
     text-align: center;
 }
 
-.Logo
-{
-    width: 120px;
-    height: 120px;
+.navbar-toggler {
+    background-color: #d7d7d8;
+}
+ 
+.logo {
+width: 100px;
+height: 100px;
+  }
+.navbar-main{
+background-color: #2f2f2f;
+left: 0px;
+top: 0px;
 }
 
 /*nft container*/
@@ -24,22 +32,26 @@
     justify-content: left;
     
 }
-.container
+.container-grid
 {
-    width: 1126px;
-    height: 787px;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 0px;
+    gap: 1.25rem;
 }
-
+.text-container{
+    width: 100%;
+}
 .top-text
 {
-    
+    font-family: 'Rajdhani';
+    font-style: normal;
     font-weight: 600;
     font-size: 20px;
+    line-height: 26px;
+    padding-left: 2%;
 }
 
 /*card*/
@@ -51,11 +63,12 @@
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
 .imgcon
 {
     background-color: #FFFFFF;
-    width: 230px;
-    height: 230px;
+    width: auto;
+    height: auto;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -109,8 +122,166 @@
     padding-left: 45px;
     background-color: #FFFFFF;
 }
-
-a{
-    text-decoration: none;
-    background-color: #FFFFFF;
+.exchange{
+    position: absolute;
+    width: 80%;
+    height: 514px;
 }
+.exchange-title{
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #000000;
+}
+.exchang-title-2{
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.exchange-container{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+.first-exchange-container{
+    background: linear-gradient(125.75deg, #9945FF 0%, #14F195 98.3%);
+    border-radius: 10px 0px 0px 10px;
+    
+    width: 513px;
+    height: 259px;
+}
+.second-exchange-container{
+    background: linear-gradient(126.88deg, #010101 0%, #5E5E63 100%);
+border-radius: 0px 10px 10px 0px;
+width: 512px;
+height: 259px
+}
+.links{
+    text-decoration: none !important;
+    background-color: #FFFFFF !important;
+}
+.nav-item {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #d7d7d8;
+  }
+.info-container{
+    justify-content: center;
+
+}
+.info-content{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(93.03deg, #000000 0%, #5E5E63 100%);
+}
+.content{
+    width: 80%;
+    height: 80%;
+    text-align: left;
+}
+.content-questions{
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+.content-text{
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+footer {
+    margin-top: auto;
+  }
+  .footer-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  .flink-icon {
+    color: dark;
+    text-decoration: none;
+  }
+  @media (min-width: 768px) {
+    .footer-icon {
+      margin-top: 1rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .footer-icon {
+      margin-top: 1rem;
+    }
+  }
+  .footer-text {
+    text-align: left;
+    size: 18px;
+    color: white;
+  }
+  .footer-logo {
+    float: left;
+    padding: 0 20px 20px 0;
+    height: 155px;
+  }
+  .list {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+  }
+  .link {
+    text-align: center;
+  }
+  .footer-text-2 {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+  @media (min-width: 310px) {
+    .footer-text-2 {
+      text-align: center;
+    }
+  }
+  @media (min-width: 576px) {
+    .footer-text-2 {
+      text-align: center;
+    }
+  }
+  @media (min-width: 768px) {
+    .footer-text-2 {
+      text-align: center;
+    }
+  }
+  @media (min-width: 992px) {
+    .footer-text-2 {
+      text-align: center;
+    }
+  }
+  @media (min-width: 1200px) {
+    .footer-text-2 {
+      padding-left: 15px;
+      text-align: left;
+    }
+  }
+  @media (min-width: 1400px) {
+    .footer-text-2 {
+      padding-left: 15px;
+      text-align: left;
+    }
+  }
