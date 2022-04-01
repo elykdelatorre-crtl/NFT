@@ -3,7 +3,7 @@ import './components.css';
 function Info()
 {
     return(
-             <section className='info-container mt-5'>
+             <section className='info-container mt-5 mb-5'>
                 <div className='container'>
                     <div className='info-content'>
                         <div className='col link d-flex align-items justify-content-center'>
