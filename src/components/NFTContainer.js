@@ -5,7 +5,7 @@ function NFTContainer()
 {
     return(
     <div>
-        <section>
+        <section className='pt-5'>
             <div className='nftcon'>
                         <div className='container text-top col link d-flex align-items justify-content-center pb-2'>
                             <div className='text-container'>
