@@ -1,10 +1,15 @@
-function NFT(props)
+import NFTContent from "../components/NFTContent";
+
+function NFT()
 {
     return(
-        <div>
-            <h1>{props.children}</h1>
-            <h1>Hey</h1>
-        </div>
+        <>
+           
+
+        <NFTContent/>
+          
+
+        </>
     );
 
 }

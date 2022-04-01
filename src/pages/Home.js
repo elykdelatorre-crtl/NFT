@@ -11,13 +11,26 @@ function Home()
 {
     return(
         <>
-                <Logo/>
+             
                 <NFTContainer />
                 {/* <Exchange /> */}
                 <Info/>
-                <Footer/>
+              
+                
         </>
     );
 }
 
 export default Home;
+
+
+/*
+
+     <Logo/>
+                <NFTContainer />
+                {}
+                <Info/>
+                <Footer/>
+
+
+*/
