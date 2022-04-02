@@ -9,7 +9,7 @@ function NFTContent()
             {/*IMG Dito men*/}
                     <div className="col">
                         <div className="imgContainter ">
-                            <img className="nftimg img-fluid" src="./Img/qube.png"/>
+                            <img className="nftimg img-fluid" src="./Img/sampleNFT.gif"/>
                         </div>
                     </div>
             {/*Ditio yung content*/}
