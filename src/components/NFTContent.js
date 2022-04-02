@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function NFTContent()
 {
     return(
@@ -23,7 +25,11 @@ function NFTContent()
                                 Get this for free by availing a minimum of 10,000 Qubes.
                                 </p>
                               
-                                <p className="sub-nfttxt2"><img className='nft-icons' src='./Img/iconQ.svg'/> 0 QUBE <button className="nft-button">BUY NOW</button> </p> 
+                                <p className="sub-nfttxt2"><img className='nft-icons' src='./Img/iconQ.svg'/> 0 QUBE
+                                    <Link to='/Exchange'>
+                                    <button className="nft-button">BUY NOW</button>
+                                    </Link>
+                                </p> 
                         </div>
                     </div>
 

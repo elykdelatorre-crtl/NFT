@@ -155,8 +155,7 @@ top: 0px;
     background-color: #FFFFFF;
 }
 .exchange{
-    position: absolute;
-    width: 80%;
+    width: 100%;
     height: 514px;
 }
 .exchange-title{
@@ -177,21 +176,53 @@ top: 0px;
 }
 .exchange-container{
     display: flex;
-    position: absolute;
     justify-content: center;
+    
 }
 .first-exchange-container{
     background: linear-gradient(125.75deg, #9945FF 0%, #14F195 98.3%);
-    border-radius: 10px 0px 0px 10px;
-    
+    border-radius: 10px 0px 0px 10px;  
     width: 513px;
     height: 259px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .second-exchange-container{
     background: linear-gradient(126.88deg, #010101 0%, #5E5E63 100%);
-border-radius: 0px 10px 10px 0px;
-width: 512px;
-height: 259px
+  border-radius: 0px 10px 10px 0px;
+  width: 512px;
+  height: 259px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.exchange-text{
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+.exchange-arrow{
+ position: absolute;
+ z-index: 10;
+ top: 40%;
+}
+.exchange-input{
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #69696B;
 }
 .links{
     text-decoration: none !important;
@@ -481,4 +512,43 @@ footer {
 }
 .footbar-button:hover {
   color: #ffffff;
+}
+.exchange-button {
+  background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 333px;
+  height: 50px;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #d7d7d8 !important;
+  text-align: left!important;
+}
+.exchange-button:hover {
+  color: #ffffff;
+}
+.exchange-button-more {
+  background: linear-gradient(44.73deg, #7c7c7c 11.32%, #4e4e4e 92.96%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 333px;
+  height: 50px;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #d7d7d8 !important;
+}
+.exchange-button-more:hover {
+  color: #ffffff;
+}
+.wallet-icons{
+  margin-left: 5rem;
+  margin-right: 1rem;
 }

@@ -1,5 +1,4 @@
 import NFTContent from "../components/NFTContent";
-
 function NFT()
 {
     return(
@@ -7,8 +6,6 @@ function NFT()
            
 
         <NFTContent/>
-          
-
         </>
     );
 
