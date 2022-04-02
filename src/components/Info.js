@@ -15,10 +15,14 @@ function Info()
                                  What is a non-fungible token (NFT)?
                                 </p>
                                 <p className='content-text'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nisi tristique, faucibus justo eu, placerat dui.
-                                Quisque efficitur purus eros, eget tincidunt diam mattis molestie. Vivamus purus diam, suscipit sed dolor at, 
-                                sollicitudin enim. Morbi bibendum aliquet ornare.
-                                Integer turpis nunc, mattis sit amet nunc porta, cursus consectetur ipsum.
+                                Non-Fungible Tokens or NFT has been around as early as 2014 and started to gain popularity in early 2021. 
+                                Since then, use cases in Arts, Music, Fashion, Licensing, Gaming, and Metaverse emerged.
+                                he advantage of minting these real-life assets and digital pieces can be summarized in simple terms:
+                                so that an authentic digital representation of it can be stored in blockchain, making it unique, and
+                                impossible to counterfeit, and that the pieces can be bought and sold securely. Although most, if not
+                                all the use cases are still in their early stages, individual creators are already benefiting from minting their
+                                original works. 
+                                It will not take long until the NFT wave reaches industries including the built environment. 
                                 </p>
                             </div>
                         </div>
