@@ -27,10 +27,10 @@ function NFTContainer()
                                     <Card text='Homeqube 2' heart='3' />
                                     <Card text='Homeqube 3' heart='5' />
                                     <Card text='Homeqube 4' heart='3' />
-                                    <Card text='Homeqube 5' heart='21' />
+                                    {/* <Card text='Homeqube 5' heart='21' />
                                     <Card text='Homeqube 6' heart='23' />
                                     <Card text='Homeqube 7' heart='29' />
-                                    <Card text='Homeqube 8' heart='22' />
+                                    <Card text='Homeqube 8' heart='22' /> */}
                                 </div>
                     </div>
         </section>
