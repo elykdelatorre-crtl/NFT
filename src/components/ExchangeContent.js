@@ -35,21 +35,20 @@ function ExchangeContent()
                     </div>
                     <div className='col link d-flex align-items justify-content-center'>
                         <div className='container'>
-                            <button className="footbar-button btn btn-lg rounded-pill" type='button' data-bs-toggle="modal" data-bs-target="#connect-wallet-modal">
+                            <button className="footbar-button btn btn-lg rounded-pill" type='button' data-bs-toggle="modal"
+                             data-bs-target="#connect-wallet-modal">
                                 CONNECT WALLET
                             </button>  
                         </div>
                     </div>
                 </section>
-                <div class="modal fade" id="connect-wallet-modal" tabindex="-1" aria-labelledby="card-modal-2-label"
+                <div class="modal fade" id="connect-wallet-modal" tabindex="-1" aria-labelledby="connect-wallet-modal-label"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal">
                         <div class="modal-content">
                             <div class="card-modal-title modal-header text-center">
-                                <div class="col-sm modal-title" id="card-modal-2">
+                                <div class="col-sm modal-title" id="connect-wallet-modal">
                                     <h2 text-uppercase>Connect Wallet</h2>
-                                    <div>
-                                    </div>
                                 </div>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
