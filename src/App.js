@@ -7,6 +7,7 @@ import ConnectWallet from "./pages/ConnectWallet";
 import AllNFT from "./pages/AllNFT";
 import NFT from "./pages/NFT";
 import Exchange from "./pages/Exchange";
+import Buttons from "./pages/Buttons";
 
 
 function App() {
@@ -34,6 +35,10 @@ function App() {
     <Route path='/Exchange' >
         <Exchange/>
     </Route>
+    <Route path='/Buttons' >
+        <Buttons/>
+    </Route>
+
 
 </Switch>
 
