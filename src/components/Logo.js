@@ -6,7 +6,7 @@ function Logo()
     <>
         <Navbar bg="dark" variant="dark" collapseOnSelect expand="lg"  className='navbar navbar-main navbar-light sticky-top'>
           <Container>
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="./">
             <img className="logo" src='./Img/Homeqube-logo-black_small 1.svg' alt=''/>
           </Navbar.Brand>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -14,7 +14,7 @@ function Logo()
                 <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav">
                     <li class="nav-item ms-5">
-                        <a href="pipeline.html" class="nav-link">
+                        <a href="/ProofOfConcept" class="nav-link">
                             <p class="nav-item px-4 pt-4">
                                 proof of 
                                 <br/>
@@ -25,7 +25,7 @@ function Logo()
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item ms-5">
-                        <a href="pipeline.html" class="nav-link">
+                        <a href="/NftCollection" class="nav-link">
                             <p class="nav-item px-4 pt-4">
                                 nft 
                                 <br/>collections
@@ -34,7 +34,7 @@ function Logo()
                     </li>
                 </ul> <ul class="navbar-nav">
                     <li class="nav-item ms-5">
-                        <a href="pipeline.html" class="nav-link">
+                        <a href="/BuyOffers" class="nav-link">
                             <p class="nav-item px-4 pt-4">
                                 buy <br/>offers
                             </p>
@@ -43,7 +43,7 @@ function Logo()
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item ms-5">
-                        <a href="pipeline.html" class="nav-link">
+                        <a href="https://www.qube.homeqube.com/" target="_blank" class="nav-link">
                             <p class="nav-item px-4 pt-4">
                                 ico <br/>website
                             </p>

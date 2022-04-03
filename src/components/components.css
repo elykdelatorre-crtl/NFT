@@ -1,3 +1,5 @@
+
+
 /*Logo*/
 *
 {
@@ -585,4 +587,21 @@ footer {
   width: 100%;
   height: 514px;
   padding-top: 8rem;
+}
+
+.underCon
+{
+  text-align: center;
+  
+}
+
+.undercons
+{
+  background-image: url('../../public/Img/landingpage.jpg');
+}
+
+.cons
+{
+  font-weight: 900;
+  font-size: 60px;
 }

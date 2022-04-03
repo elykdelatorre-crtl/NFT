@@ -8,6 +8,9 @@ import AllNFT from "./pages/AllNFT";
 import NFT from "./pages/NFT";
 import Exchange from "./pages/Exchange";
 import Buttons from "./pages/Buttons";
+import ProofOfConcept from "./pages/ProofOfConcept";
+import NftCollection from "./pages/NftCollection";
+import BuyOffers from "./pages/BuyOffers";
 
 
 function App() {
@@ -37,6 +40,18 @@ function App() {
     </Route>
     <Route path='/Buttons' >
         <Buttons/>
+    </Route>
+
+    <Route path='/ProofOfConcept'>
+        <ProofOfConcept/>
+    </Route>
+    
+    <Route path='/NftCollection'>
+        <NftCollection/>
+    </Route>
+
+    <Route path='/BuyOffers'>
+        <BuyOffers/>
     </Route>
 
 
