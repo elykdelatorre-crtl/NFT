@@ -568,8 +568,8 @@ footer {
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  text-align: left;
-  padding-left: 4rem;
+  text-align: center;
+  padding-right: 6rem;
 }
 .airdrop-text-2{
   font-style: normal;
@@ -579,5 +579,5 @@ footer {
   padding-left: 1rem;
 }
 .div-position{
-  width: 60%;
+  width: 100%;
 }
