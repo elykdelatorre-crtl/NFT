@@ -9,13 +9,13 @@ function Logo()
           <Navbar.Brand href="./">
             <img className="logo" src='./Img/Homeqube-logo-black_small 1.svg' alt=''/>
           </Navbar.Brand>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-            <span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav">
-                    <li class="nav-item ms-5">
-                        <a href="/ProofOfConcept" class="nav-link">
-                            <p class="nav-item px-4 pt-4">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span className="navbar-toggler-icon"></span></button>
+                <div className="collapse navbar-collapse" id="navmenu">
+                <ul className="navbar-nav">
+                    <li className="nav-item ms-5">
+                        <a href="/ProofOfConcept" className="nav-link">
+                            <p className="nav-item px-4 pt-4">
                                 proof of 
                                 <br/>
                                 concept
@@ -23,28 +23,28 @@ function Logo()
                         </a>
                     </li>
                 </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item ms-5">
-                        <a href="/NftCollection" class="nav-link">
-                            <p class="nav-item px-4 pt-4">
+                <ul className="navbar-nav">
+                    <li className="nav-item ms-5">
+                        <a href="/NftCollection" className="nav-link">
+                            <p className="nav-item px-4 pt-4">
                                 nft 
                                 <br/>collections
                             </p>
                         </a>
                     </li>
-                </ul> <ul class="navbar-nav">
-                    <li class="nav-item ms-5">
-                        <a href="/BuyOffers" class="nav-link">
-                            <p class="nav-item px-4 pt-4">
+                </ul> <ul className="navbar-nav">
+                    <li className="nav-item ms-5">
+                        <a href="/BuyOffers" className="nav-link">
+                            <p className="nav-item px-4 pt-4">
                                 buy <br/>offers
                             </p>
                         </a>
                     </li>
                 </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item ms-5">
-                        <a href="https://www.qube.homeqube.com/" target="_blank" class="nav-link">
-                            <p class="nav-item px-4 pt-4">
+                <ul className="navbar-nav">
+                    <li className="nav-item ms-5">
+                        <a href="https://www.qube.homeqube.com/" target="_blank" className="nav-link">
+                            <p className="nav-item px-4 pt-4">
                                 ico <br/>website
                             </p>
                         </a>
