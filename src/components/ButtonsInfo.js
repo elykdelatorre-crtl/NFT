@@ -9,7 +9,7 @@ function ButtonsInfo()
         <>
             <div className='container'>
 
-                <section className='exchange mt-5'>
+                <section className='buttons-section mt-5'>
 
                     <div className='col link d-flex align-items justify-content container-fluid'>
                             <div className='container-fluid'>
