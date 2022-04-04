@@ -30,9 +30,9 @@ function ButtonsInfo()
                                 <p className='airdrop-text'>AVAILABLE: 5</p>
                                 <button className="footbar-button btn btn-lg rounded-pill mx-5" type='button' data-bs-toggle="modal"
                                 data-bs-target="#connect-wallet-modal">
-                                     60,000  <img className='iconsol mx-2' src='./Img/iconQ.svg'/>
+                                     150,000  <img className='iconsol mx-2' src='./Img/iconQ.svg'/>
                                 </button> 
-                                <p className='airdrop-text-2'>1000
+                                <p className='airdrop-text-2'>2500
                                     <img className='iconsol mx-2' src='./Img/solLogo.svg'/>
                                 </p>
                                 </div>

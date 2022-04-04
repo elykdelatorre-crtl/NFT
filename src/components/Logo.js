@@ -50,6 +50,15 @@ function Logo()
                         </a>
                     </li>
                 </ul>
+                <ul className="navbar-nav">
+                    <li className="nav-item ms-5">
+                        <a href="/Buttons"  className="nav-link">
+                            <p className="nav-item px-4 pt-4">
+                                Block <br/>Exchange
+                            </p>
+                        </a>
+                    </li>
+                </ul>   
             </div>
           </Container>
         </Navbar>
